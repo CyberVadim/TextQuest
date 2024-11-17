@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>StartQuest</servlet-name>
+    <servlet-class>org.TextQuestProject.StartQuest</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>StartQuest</servlet-name>
+    <url-pattern>/game</url-pattern>
+  </servlet-mapping>
+
 </web-app>
